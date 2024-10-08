@@ -1,5 +1,5 @@
 if str == nil then
-    str = require("src.modules.String.Str")
+    str = require("modules.String.Str")
 
     if str == nil then
         print("ERROR: Unable to require('Modules.Str')")
@@ -18,7 +18,6 @@ parse = {
 
         return str.Copy(source, From_last +1, To_first -1)
     end,
-
 ---
 ---@param source string
 ---@param from string
